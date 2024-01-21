@@ -27,7 +27,7 @@ To run this application locally, follow these steps:
 
 **1.Clone the repository to your local machine:**
  
-   git clone https://github.com/your-username/nodejs-with-mysql.git
+   git clone https://santoshi-vajrangi.github.io/Project-on-Feedback-Application/
 
 
 **2.Install dependencies:**
@@ -56,16 +56,22 @@ var con = mysql.createConnection({
   password: "",
   database: "feedback",
 });
-##API Endpoints
-POST /users/insert: Add a new user.
-POST /posts/insert: Add a new post.
-POST /comments/insert: Add a new comment.
-GET /posts/view: View the latest three blog posts.
-POST /comments/retrieve: Retrieve positive comments for a specific post.
-POST /comments/delete: Delete a comment by comment id.
- 
 
-##Author
+
+**API Endpoints**
+-POST /users/insert: Add a new user.
+-POST /posts/insert: Add a new post.
+-POST /comments/insert: Add a new comment.
+-GET /posts/view: View the latest three blog posts.
+-POST /comments/retrieve: Retrieve positive comments for a specific post.
+-POST /comments/delete: Delete a comment by comment id.
+-Contributing
+-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+**License**
+This project is licensed under the ISC License - see the LICENSE file for details.
+
+Author
 Santoshi Vajrangi
 
  
