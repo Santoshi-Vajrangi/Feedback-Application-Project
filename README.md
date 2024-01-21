@@ -49,7 +49,7 @@ pen your web browser and go to http://localhost:4500.
 
 Ensure that you have MySQL installed, and configure the database connection in the `server.js` file:
 
-```javascript
+javascript
 var con = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
