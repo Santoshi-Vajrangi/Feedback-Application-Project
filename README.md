@@ -1,4 +1,4 @@
-# Feedback-Application-Project
+ 
 
 # Node.js with MySQL Feedback Application
 
@@ -46,10 +46,10 @@ Start the server:
 pen your web browser and go to http://localhost:4500.
 
 ## Database Configuration
-Ensure that you have MySQL installed, and configure the database connection in the server.js file:
 
- 
- 
+Ensure that you have MySQL installed, and configure the database connection in the `server.js` file:
+
+```javascript
 var con = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
@@ -57,17 +57,26 @@ var con = mysql.createConnection({
   database: "feedback",
 });
 
+## API Endpoints
 
-**API Endpoints**
--POST /users/insert: Add a new user.
--POST /posts/insert: Add a new post.
--POST /comments/insert: Add a new comment.
--GET /posts/view: View the latest three blog posts.
--POST /comments/retrieve: Retrieve positive comments for a specific post.
--POST /comments/delete: Delete a comment by comment id.
--Contributing
--Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+- **POST /users/insert:** Add a new user.
+- **POST /posts/insert:** Add a new post.
+- **POST /comments/insert:** Add a new comment.
+- **GET /posts/view:** View the latest three blog posts.
+- **POST /comments/retrieve:** Retrieve positive comments for a specific post.
+- **POST /comments/delete:** Delete a comment by comment id.
 
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Santoshi Vajrangi
 **License**
 This project is licensed under the ISC License - see the LICENSE file for details.
 
