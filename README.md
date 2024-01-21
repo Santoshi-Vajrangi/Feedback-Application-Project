@@ -66,21 +66,8 @@ var con = mysql.createConnection({
 - **POST /comments/retrieve:** Retrieve positive comments for a specific post.
 - **POST /comments/delete:** Delete a comment by comment id.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 Santoshi Vajrangi
-**License**
-This project is licensed under the ISC License - see the LICENSE file for details.
-
-Author
-Santoshi Vajrangi
-
+ 
  
